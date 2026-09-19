@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Informática</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark barra-nav px-3">
+    <div class="container-fluid">
+      <a class="navbar-brand fw-bold" href="#">
+        <img src="img/logo.png" class="object-fit-cover" alt="Logo de la empresa de informática" width="40">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuResponsive" aria-controls="menuResponsive" aria-expanded="false" aria-label="Alternar navegacion">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="menuResponsive">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 gap-2">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Equipos y accesorios</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Encontrá tu sucursal</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="container-xxl panel-principal my-4">
+    <div class="row align-items-center g-4">
+      <div class="col-12 col-md-5">
+        <span class="badge bg-primary mb-2">Destacado</span>
+        <h2 class="display-5 fw-bold text-white">Novedades y Galerías</h2>
+        <p class="fs-5"> Esta es la primera columna. A la derecha encontrarás el carrusel de imágenes con reproducción automática, navegación por flechas, indicadores circulares y texto explicativo sobre nuestros servicios de informática.
+        </p>
+        <button class="btn btn-primary btn-lg px-4">Saber más</button>
+      </div>
+      <div class="col-12 col-md-7">
+        <div id="carruselGaleria" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carruselGaleria" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carruselGaleria" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carruselGaleria" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner rounded overflow-hidden">
+            <div class="carousel-item active">
+              <img src="img/reparacion.png" class="d-block w-100 object-fit-cover carrusel-img" alt="Técnico reparando una computadora">
+              <div class="carousel-caption d-none d-sm-block">
+                <div class="custom-caption">
+                  <h5 class="fw-bold m-0">Reparación y mantenimiento</h5>
+                  <p class="small m-0 text-white-50">Diagnóstico y soluciones para tu equipo</p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="img/redes-servidores.png" class="d-block w-100 object-fit-cover carrusel-img" alt="Sala de servidores y redes">
+              <div class="carousel-caption d-none d-sm-block">
+                <div class="custom-caption">
+                  <h5 class="fw-bold m-0">Redes y servidores</h5>
+                  <p class="small m-0 text-white-50">Infraestructura segura y confiable para tu empresa</p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="img/desarrollo-soporte.png" class="d-block w-100 object-fit-cover carrusel-img" alt="Desarrollo de software en pantalla">
+              <div class="carousel-caption d-none d-sm-block">
+                <div class="custom-caption">
+                  <h5 class="fw-bold m-0">Desarrollo y soporte técnico</h5>
+                  <p class="small m-0 text-white-50">Nuestro equipo trabaja para darte las mejores soluciones tecnológicas</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carruselGaleria" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carruselGaleria" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Siguiente</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+
+</html>
