@@ -18,3 +18,10 @@ body {
 .promoid{
   color: white;
 }
+.btn-whatsapp-flotante{
+  color: white;
+  background: rgb(23, 221, 23);
+  padding: 1rem;
+  border-radius: 8rem;
+  
+}
