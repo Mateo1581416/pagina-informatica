@@ -1,7 +1,5 @@
-
 body {
   background: rgb(1, 1, 97)
-
 }
 
 .barra-nav {
@@ -12,20 +10,23 @@ body {
   padding: 3rem;
   background: rgb(5, 5, 136);
 }
+
 .panel-principal p {
   color: white;
 }
-.promoid{
+
+.promoid {
   color: white;
 }
+
 .btn-whatsapp-flotante {
   position: fixed;
   bottom: 25px;
   right: 25px;
   width: 60px;
   height: 60px;
-  background-color: #25D366;
-  color: #FFFFFF;
+  background-color: #000000;
+  color: #fffcfc;
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -37,7 +38,7 @@ body {
 }
 
 .btn-whatsapp-flotante:hover {
-  background-color: #128C7E;
-  color: #FFFFFF;
+  background-color: #1b1b1b;
+  color: #045c46;
   transform: scale(1.1);
 }
