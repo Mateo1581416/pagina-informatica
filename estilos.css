@@ -95,12 +95,11 @@ body {
   border: 0;
 }
 
-  .servicio-card .card-body {
-    min-height: auto;
-  }
+.servicio-card .card-body {
+  min-height: auto;
+}
 
-  .mapa-contenedor {
-    height: 320px;
-    border-radius: 12px;
-  }
+.mapa-contenedor {
+  height: 320px;
+  border-radius: 12px;
 }
